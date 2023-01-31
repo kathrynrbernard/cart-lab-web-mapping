@@ -1,103 +1,26 @@
-// Add all scripts to the JS folder
+// long-form fetch
+// function jsAjax() {
+//     var request = new Request('../data/MegaCities.geojson');
+//     var init = {
+//         method: 'GET', // use GET for retrieving data, POST for sending data to server
+//     };
+//     fetch(request, init).then(conversion).then(callback); // use fetch to retrieve the data, then send the data to the callback function
+// }
 
-// function myFunc(){
-//     var myDiv =  document.querySelector('#mydiv');
-//     myDiv.innerHTML = "Hello World.";
-// };
-
-//initialize function called when the script loads
-function initialize() {
-    cities();
+// simplified
+function jsAjax() {
+    fetch('data/MegaCities.geojson') // GET is the default method
+        .then(function (response) {
+            return response.json();
+        }) //convert data to usable form
+        .then(callback); //send retrieved data to a callback function
 }
 
-//function to create a table with cities and their populations
-function cities() {
-    //define two arrays for cities and population
-    var cityPop = [
-        {
-            city: 'Madison',
-            population: 233209,
-        },
-        {
-            city: 'Milwaukee',
-            population: 594833,
-        },
-        {
-            city: 'Green Bay',
-            population: 104057,
-        },
-        {
-            city: 'Superior',
-            population: 27244,
-        },
-    ];
-
-    //create the table element
-    var table = document.createElement('table');
-
-    //create a header row
-    var headerRow = document.createElement('tr');
-
-    //add the "City" and "Population" columns to the header row
-    headerRow.insertAdjacentHTML(
-        'beforeend',
-        '<th>City</th><th>Population</th>'
-    );
-
-    //add the row to the table
-    table.appendChild(headerRow);
-
-    //loop to add a new row for each city
-    for (var i = 0; i < cityPop.length; i++) {
-        //assign longer html strings to a variable
-        var rowHtml =
-            '<tr><td>' +
-            cityPop[i].city +
-            '</td><td>' +
-            cityPop[i].population +
-            '</td></tr>';
-        //add the row's html string to the table
-        table.insertAdjacentHTML('beforeend', rowHtml);
-    }
-
-    document.querySelector('#mydiv').appendChild(table);
-
-    //get the div id
-    var theid = document.querySelector('#mydiv').getAttribute('id');
-
-    //theid is 'mydiv;; add it as text to the div
-    document.querySelector('#mydiv').insertAdjacentHTML('beforeend', theid);
-
-    //add the class 'foo' to the div
-    document.querySelector('#mydiv').setAttribute('class', 'foo');
-
-    //iterate over each script element and add each one's source url as text to the div
-    document.querySelectorAll('script').forEach(function (selectedScript) {
-        var thesource = selectedScript.src;
-        document
-            .querySelector('#mydiv')
-            .insertAdjacentHTML('beforeend', thesource);
-    });
-
-    //click listener with anonymous handler function
-    document.querySelector('table').addEventListener('click', function () {
-        alert('Madison Rocks! Go Badgers!');
-    });
-
-    //named handler function for removable listener
-    function clickme() {
-        alert('Yeah Green Bay! Go Packers!');
-    }
-
-    //add the event listener
-    document.querySelector('table').addEventListener('click', clickme);
-
-    //remove the event listener
-    document.querySelector('table').removeEventListener('click', clickme);
+// any script that makes use of data sent through AJAX should be written or called within the callback() function
+// to avoid manipulating the data before it is fully available in the browser
+function callback(response) {
+    console.log(response);
+    console.log(JSON.stringify(response));
 }
 
-document.addEventListener('DOMContentLoaded', initialize);
-
-// document
-//     .querySelector('#mydiv')
-//     .insertAdjacentHTML('beforeend', 'Hello World!');
+window.onload = jsAjax();

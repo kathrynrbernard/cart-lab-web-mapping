@@ -2,6 +2,7 @@ function initialize() {
     createTable(cityPop);
     addColumns(cityPop);
     addEvents();
+    debugAjax();
 }
 
 var cityPop = [
@@ -76,7 +77,6 @@ function addColumns(cityPop) {
 }
 
 function addEvents() {
-    console.log('hello');
     document.querySelector('table').addEventListener('mouseover', function () {
         var color = 'rgb(';
 
@@ -100,6 +100,29 @@ function addEvents() {
     }
 
     document.querySelector('table').addEventListener('click', clickme);
+}
+
+// new debug code
+
+function debugAjax() {
+    var myData;
+
+    fetch('data/MegaCities.geojson')
+        .then(function (response) {
+            return response.json();
+        })
+        .then(debugCallback);
+}
+
+function debugCallback(response) {
+    console.log('hellow');
+    console.log(JSON.stringify(response));
+    document
+        .querySelector('#mydiv')
+        .insertAdjacentHTML(
+            'beforeend',
+            'GeoJSON data: ' + JSON.stringify(response)
+        );
 }
 
 document.addEventListener('DOMContentLoaded', initialize);
