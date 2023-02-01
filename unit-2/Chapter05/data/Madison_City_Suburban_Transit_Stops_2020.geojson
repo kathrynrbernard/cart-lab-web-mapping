@@ -1,0 +1,1297 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.31111545280345, 43.053934623479705]
+            },
+            "properties": {
+                "OBJECTID": 1,
+                "STOP_ID": 10001,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "SHATO at COPPS",
+                "SERVICE": "100",
+                "lat": 43.05393462,
+                "lon": -89.31111545
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.31242235431878, 43.0531499776451]
+            },
+            "properties": {
+                "OBJECTID": 2,
+                "STOP_ID": 10002,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "SHATO at ASHER",
+                "SERVICE": "100",
+                "lat": 43.05314998,
+                "lon": -89.31242235
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.32340261798548, 43.05280633041637]
+            },
+            "properties": {
+                "OBJECTID": 3,
+                "STOP_ID": 10003,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "FEMRITE at ROSELAWN",
+                "SERVICE": "100",
+                "lat": 43.05280633,
+                "lon": -89.32340262
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.33243155210495, 43.05458325382727]
+            },
+            "properties": {
+                "OBJECTID": 4,
+                "STOP_ID": 10004,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "BRIDGE at FROST WOODS",
+                "SERVICE": "100",
+                "lat": 43.05458325,
+                "lon": -89.33243155
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.33592200550433, 43.050271172127495]
+            },
+            "properties": {
+                "OBJECTID": 5,
+                "STOP_ID": 10005,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "BRIDGE at WINNEQUAH",
+                "SERVICE": "100",
+                "lat": 43.05027117,
+                "lon": -89.33592201
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.3306714757024, 43.056876488513645]
+            },
+            "properties": {
+                "OBJECTID": 6,
+                "STOP_ID": 10006,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "PHEASANT HILL at OWEN",
+                "SERVICE": "100",
+                "lat": 43.05687649,
+                "lon": -89.33067148
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.33829422703319, 43.06248518830664]
+            },
+            "properties": {
+                "OBJECTID": 7,
+                "STOP_ID": 10007,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "NICHOLS at MAYWOOD",
+                "SERVICE": "100",
+                "lat": 43.06248519,
+                "lon": -89.33829423
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.3431368785362, 43.058999596764046]
+            },
+            "properties": {
+                "OBJECTID": 8,
+                "STOP_ID": 10008,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "SCHLUTER at WINNEQUAH",
+                "SERVICE": "100",
+                "lat": 43.0589996,
+                "lon": -89.34313688
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.34602217772586, 43.06059805492955]
+            },
+            "properties": {
+                "OBJECTID": 9,
+                "STOP_ID": 10009,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "WINNEQUAH at BASKERVILLE",
+                "SERVICE": "100",
+                "lat": 43.06059806,
+                "lon": -89.34602218
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.34524674790234, 43.063168923920045]
+            },
+            "properties": {
+                "OBJECTID": 10,
+                "STOP_ID": 10010,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "WINNEQUAH at WYLDHAVEN",
+                "SERVICE": "100",
+                "lat": 43.06316892,
+                "lon": -89.34524675
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.33864043030734, 43.0692970870705]
+            },
+            "properties": {
+                "OBJECTID": 11,
+                "STOP_ID": 10011,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "WINNEQUAH at DEAN",
+                "SERVICE": "100",
+                "lat": 43.06929709,
+                "lon": -89.33864043
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.33322982840451, 43.06927792431704]
+            },
+            "properties": {
+                "OBJECTID": 12,
+                "STOP_ID": 10012,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "DEAN at MIDMOOR",
+                "SERVICE": "100",
+                "lat": 43.06927793,
+                "lon": -89.33322983
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.3274070024461, 43.06919846866564]
+            },
+            "properties": {
+                "OBJECTID": 13,
+                "STOP_ID": 10013,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "DEAN at GORDON",
+                "SERVICE": "100",
+                "lat": 43.06919847,
+                "lon": -89.327407
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.32597653811821, 43.07204367843333]
+            },
+            "properties": {
+                "OBJECTID": 14,
+                "STOP_ID": 10014,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "MONONA at MONONA GROVE HS",
+                "SERVICE": "100",
+                "lat": 43.07204368,
+                "lon": -89.32597654
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.32501889143089, 43.083964788122266]
+            },
+            "properties": {
+                "OBJECTID": 15,
+                "STOP_ID": 7215,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "MONONA at COTTAGE GROVE",
+                "SERVICE": "100",
+                "lat": 43.08396479,
+                "lon": -89.32501889
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.32991636610201, 43.089739865109756]
+            },
+            "properties": {
+                "OBJECTID": 16,
+                "STOP_ID": 1169,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "ATWOOD at WALTER",
+                "SERVICE": "100",
+                "lat": 43.08973987,
+                "lon": -89.32991637
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.35651298459479, 43.090474561786145]
+            },
+            "properties": {
+                "OBJECTID": 17,
+                "STOP_ID": 1830,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "WINNEBAGO at FIRST",
+                "SERVICE": "100",
+                "lat": 43.09047456,
+                "lon": -89.35651298
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.38196449262954, 43.074723241380546]
+            },
+            "properties": {
+                "OBJECTID": 18,
+                "STOP_ID": 10018,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "KING at PINCKNEY",
+                "SERVICE": "100",
+                "lat": 43.07472324,
+                "lon": -89.38196449
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.38776483240717, 43.07482634920706]
+            },
+            "properties": {
+                "OBJECTID": 19,
+                "STOP_ID": 1558,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "STATE at DAYTON",
+                "SERVICE": "100",
+                "lat": 43.07482635,
+                "lon": -89.38776483
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.39749873201609, 43.07425134572379]
+            },
+            "properties": {
+                "OBJECTID": 20,
+                "STOP_ID": 926,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "LAKE at STATE",
+                "SERVICE": "100",
+                "lat": 43.07425135,
+                "lon": -89.39749873
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.40586948399803, 43.07593837245605]
+            },
+            "properties": {
+                "OBJECTID": 21,
+                "STOP_ID": 10021,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "CHARTER at OBSERVATORY",
+                "SERVICE": "100",
+                "lat": 43.07593837,
+                "lon": -89.40586948
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.4132373935189, 43.07652980616941]
+            },
+            "properties": {
+                "OBJECTID": 22,
+                "STOP_ID": 2996,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "OBSERVATORY at BABCOCK",
+                "SERVICE": "100",
+                "lat": 43.07652981,
+                "lon": -89.41323739
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.42918531340844, 43.076696058390205]
+            },
+            "properties": {
+                "OBJECTID": 23,
+                "STOP_ID": 2916,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "HIGHLAND at OBSERVATORY",
+                "SERVICE": "100",
+                "lat": 43.07669606,
+                "lon": -89.42918531
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.42888456207397, 43.074432317878276]
+            },
+            "properties": {
+                "OBJECTID": 24,
+                "STOP_ID": 2822,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "HIGHLAND at VA HOSPITAL",
+                "SERVICE": "100",
+                "lat": 43.07443232,
+                "lon": -89.42888456
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.40440746436472, 43.072073731355374]
+            },
+            "properties": {
+                "OBJECTID": 25,
+                "STOP_ID": 741,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "JOHNSON at MILLS",
+                "SERVICE": "100",
+                "lat": 43.07207373,
+                "lon": -89.40440746
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.40265363844274, 43.065262464154095]
+            },
+            "properties": {
+                "OBJECTID": 26,
+                "STOP_ID": 10026,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "MOUND at BROOKS",
+                "SERVICE": "100",
+                "lat": 43.06526247,
+                "lon": -89.40265364
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.40221097384527, 43.05910608279014]
+            },
+            "properties": {
+                "OBJECTID": 27,
+                "STOP_ID": 10027,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "BROOKS at ST MARYS",
+                "SERVICE": "100",
+                "lat": 43.05910608,
+                "lon": -89.40221097
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.39531329727721, 43.05397246323208]
+            },
+            "properties": {
+                "OBJECTID": 28,
+                "STOP_ID": 877,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "OLIN at PARK",
+                "SERVICE": "100",
+                "lat": 43.05397246,
+                "lon": -89.3953133
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.322989272901, 43.05257227292399]
+            },
+            "properties": {
+                "OBJECTID": 29,
+                "STOP_ID": 11001,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "FEMRITE at ROSELAWN",
+                "SERVICE": "100",
+                "lat": 43.05257227,
+                "lon": -89.32298927
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.31223677803938, 43.05314234488094]
+            },
+            "properties": {
+                "OBJECTID": 30,
+                "STOP_ID": 11002,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "SHATO at ASHER",
+                "SERVICE": "100",
+                "lat": 43.05314235,
+                "lon": -89.31223678
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.31074828411026, 43.053776774669835]
+            },
+            "properties": {
+                "OBJECTID": 31,
+                "STOP_ID": 11003,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "SHATO at COPPS",
+                "SERVICE": "100",
+                "lat": 43.05377678,
+                "lon": -89.31074828
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.3966413000726, 43.054461232717635]
+            },
+            "properties": {
+                "OBJECTID": 32,
+                "STOP_ID": 107,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "PARK at OLIN",
+                "SERVICE": "100",
+                "lat": 43.05446123,
+                "lon": -89.3966413
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.40213149032174, 43.059421633927364]
+            },
+            "properties": {
+                "OBJECTID": 33,
+                "STOP_ID": 11005,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "BROOKS at ST MARYS",
+                "SERVICE": "100",
+                "lat": 43.05942163,
+                "lon": -89.40213149
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.40239552144727, 43.0651792690487]
+            },
+            "properties": {
+                "OBJECTID": 34,
+                "STOP_ID": 11006,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "BROOKS at MOUND",
+                "SERVICE": "100",
+                "lat": 43.06517927,
+                "lon": -89.40239552
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.40398085302937, 43.07191068437418]
+            },
+            "properties": {
+                "OBJECTID": 35,
+                "STOP_ID": 441,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "MILLS at JOHNSON",
+                "SERVICE": "100",
+                "lat": 43.07191069,
+                "lon": -89.40398085
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.42866917749801, 43.07414947660466]
+            },
+            "properties": {
+                "OBJECTID": 36,
+                "STOP_ID": 2393,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "HIGHLAND at VA HOSPITAL",
+                "SERVICE": "100",
+                "lat": 43.07414948,
+                "lon": -89.42866918
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.42830312836975, 43.07701256644714]
+            },
+            "properties": {
+                "OBJECTID": 37,
+                "STOP_ID": 2091,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "OBSERVATORY at HIGHLAND",
+                "SERVICE": "100",
+                "lat": 43.07701257,
+                "lon": -89.42830313
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.41295530262033, 43.07638788555609]
+            },
+            "properties": {
+                "OBJECTID": 38,
+                "STOP_ID": 2145,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "OBSERVATORY at BABCOCK",
+                "SERVICE": "100",
+                "lat": 43.07638789,
+                "lon": -89.4129553
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.40610017986761, 43.07613849331574]
+            },
+            "properties": {
+                "OBJECTID": 39,
+                "STOP_ID": 11011,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "OBSERVATORY at CHARTER",
+                "SERVICE": "100",
+                "lat": 43.07613849,
+                "lon": -89.40610018
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.39669171340705, 43.07483634959561]
+            },
+            "properties": {
+                "OBJECTID": 40,
+                "STOP_ID": 265,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "STATE at LAKE",
+                "SERVICE": "100",
+                "lat": 43.07483635,
+                "lon": -89.39669171
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.38838916054807, 43.074711166770015]
+            },
+            "properties": {
+                "OBJECTID": 41,
+                "STOP_ID": 883,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "STATE at FAIRCHILD",
+                "SERVICE": "100",
+                "lat": 43.07471117,
+                "lon": -89.38838916
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.38212763712336, 43.074443841842616]
+            },
+            "properties": {
+                "OBJECTID": 42,
+                "STOP_ID": 1823,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "MAIN at PINCKNEY",
+                "SERVICE": "100",
+                "lat": 43.07444384,
+                "lon": -89.38212764
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.35617672418132, 43.08970475653045]
+            },
+            "properties": {
+                "OBJECTID": 43,
+                "STOP_ID": 11015,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "EASTWOOD at FIRST",
+                "SERVICE": "100",
+                "lat": 43.08970476,
+                "lon": -89.35617672
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.32928522724164, 43.08919763428885]
+            },
+            "properties": {
+                "OBJECTID": 44,
+                "STOP_ID": 7888,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "ATWOOD at WALTER",
+                "SERVICE": "100",
+                "lat": 43.08919764,
+                "lon": -89.32928523
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.32499681344969, 43.08337029730841]
+            },
+            "properties": {
+                "OBJECTID": 45,
+                "STOP_ID": 7834,
+                "SYSTEM": "MT",
+                "NOTES": "",
+                "LOCATION": "MONONA at COTTAGE GROVE",
+                "SERVICE": "100",
+                "lat": 43.0833703,
+                "lon": -89.32499681
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.32618829239647, 43.07158578469563]
+            },
+            "properties": {
+                "OBJECTID": 46,
+                "STOP_ID": 11018,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "MONONA at MONONA GROVE HS",
+                "SERVICE": "100",
+                "lat": 43.07158579,
+                "lon": -89.32618829
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.3274278397106, 43.06930650456479]
+            },
+            "properties": {
+                "OBJECTID": 47,
+                "STOP_ID": 11019,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "DEAN at GORDON",
+                "SERVICE": "100",
+                "lat": 43.06930651,
+                "lon": -89.32742784
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.3337681093777, 43.06940350727374]
+            },
+            "properties": {
+                "OBJECTID": 48,
+                "STOP_ID": 11020,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "DEAN at MIDMOOR",
+                "SERVICE": "100",
+                "lat": 43.06940351,
+                "lon": -89.33376811
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.33894226697821, 43.069245445643986]
+            },
+            "properties": {
+                "OBJECTID": 49,
+                "STOP_ID": 11021,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "WINNEQUAH at DEAN",
+                "SERVICE": "100",
+                "lat": 43.06924545,
+                "lon": -89.33894227
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.34555016379382, 43.062864466435016]
+            },
+            "properties": {
+                "OBJECTID": 50,
+                "STOP_ID": 11022,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "WINNEQUAH at WYLDHAVEN",
+                "SERVICE": "100",
+                "lat": 43.06286447,
+                "lon": -89.34555016
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.34616677919446, 43.06064290798227]
+            },
+            "properties": {
+                "OBJECTID": 51,
+                "STOP_ID": 11023,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "WINNEQUAH at BASKERVILLE",
+                "SERVICE": "100",
+                "lat": 43.06064291,
+                "lon": -89.34616678
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.34334177308477, 43.058877470542534]
+            },
+            "properties": {
+                "OBJECTID": 52,
+                "STOP_ID": 11024,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "WINNEQUAH at SCHLUTER",
+                "SERVICE": "100",
+                "lat": 43.05887747,
+                "lon": -89.34334177
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.33775603650304, 43.0623433759322]
+            },
+            "properties": {
+                "OBJECTID": 53,
+                "STOP_ID": 11025,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "NICHOLS at MAYWOOD",
+                "SERVICE": "100",
+                "lat": 43.06234338,
+                "lon": -89.33775604
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.33084835639579, 43.05682287459519]
+            },
+            "properties": {
+                "OBJECTID": 54,
+                "STOP_ID": 11026,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "PLEASANT HILL at OWEN",
+                "SERVICE": "100",
+                "lat": 43.05682288,
+                "lon": -89.33084836
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.33624775670219, 43.05013576659922]
+            },
+            "properties": {
+                "OBJECTID": 55,
+                "STOP_ID": 11027,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "WINNEQUAH at BRIDGE",
+                "SERVICE": "100",
+                "lat": 43.05013577,
+                "lon": -89.33624776
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.33223410721611, 43.05455578858738]
+            },
+            "properties": {
+                "OBJECTID": 56,
+                "STOP_ID": 11028,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "BRIDGE at FROST WOODS",
+                "SERVICE": "100",
+                "lat": 43.05455579,
+                "lon": -89.33223411
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.32892685283774, 43.05752172222752]
+            },
+            "properties": {
+                "OBJECTID": 57,
+                "STOP_ID": 12001,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "MONONA HILLS",
+                "SERVICE": "010",
+                "lat": 43.05752172,
+                "lon": -89.32892685
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.3277116412957, 43.057645557809714]
+            },
+            "properties": {
+                "OBJECTID": 58,
+                "STOP_ID": 12002,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "HERITAGE",
+                "SERVICE": "010",
+                "lat": 43.05764556,
+                "lon": -89.32771164
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.32313843024099, 43.05310018021351]
+            },
+            "properties": {
+                "OBJECTID": 59,
+                "STOP_ID": 12003,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "MONONA MEADOWS",
+                "SERVICE": "010",
+                "lat": 43.05310018,
+                "lon": -89.32313843
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.32258520780361, 43.04603029485353]
+            },
+            "properties": {
+                "OBJECTID": 60,
+                "STOP_ID": 12004,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "COPPS",
+                "SERVICE": "010",
+                "lat": 43.0460303,
+                "lon": -89.32258521
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.35097555275915, 43.04505637385654]
+            },
+            "properties": {
+                "OBJECTID": 61,
+                "STOP_ID": 12005,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "SOUTH TOWNE",
+                "SERVICE": "010",
+                "lat": 43.04505637,
+                "lon": -89.35097555
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.35135271299795, 43.042364516068176]
+            },
+            "properties": {
+                "OBJECTID": 62,
+                "STOP_ID": 12006,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "WALMART",
+                "SERVICE": "010",
+                "lat": 43.04236452,
+                "lon": -89.35135271
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.34025657949773, 43.062719712659906]
+            },
+            "properties": {
+                "OBJECTID": 63,
+                "STOP_ID": 12007,
+                "SYSTEM": "MON",
+                "NOTES": "",
+                "LOCATION": "MONONA SENIOR CENTER",
+                "SERVICE": "010",
+                "lat": 43.06271971,
+                "lon": -89.34025658
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.51631312112112, 43.09466074007198]
+            },
+            "properties": {
+                "OBJECTID": 64,
+                "STOP_ID": 30001,
+                "SYSTEM": "MIDTROL",
+                "NOTES": "",
+                "LOCATION": "Terrace Ave at Capital Brewery",
+                "SERVICE": "000",
+                "lat": 43.09466074,
+                "lon": -89.51631312
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.52321493848878, 43.09031369449507]
+            },
+            "properties": {
+                "OBJECTID": 65,
+                "STOP_ID": 30002,
+                "SYSTEM": "MIDTROL",
+                "NOTES": "",
+                "LOCATION": "Greenway at Fairfield Inn and Suites",
+                "SERVICE": "000",
+                "lat": 43.0903137,
+                "lon": -89.52321494
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.5117434076074, 43.09588530474891]
+            },
+            "properties": {
+                "OBJECTID": 66,
+                "STOP_ID": 30010,
+                "SYSTEM": "MIDTROL",
+                "NOTES": "Bloom Bake Shop",
+                "LOCATION": "Elmwood Ave at Parmenter St",
+                "SERVICE": "000",
+                "lat": 43.09588531,
+                "lon": -89.51174341
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.51543047994453, 43.09580357775534]
+            },
+            "properties": {
+                "OBJECTID": 67,
+                "STOP_ID": 30009,
+                "SYSTEM": "MIDTROL",
+                "NOTES": "",
+                "LOCATION": "Elwood Ave across from Staybridge Suites",
+                "SERVICE": "000",
+                "lat": 43.09580358,
+                "lon": -89.51543048
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.52575415821863, 43.092394962468774]
+            },
+            "properties": {
+                "OBJECTID": 68,
+                "STOP_ID": 30004,
+                "SYSTEM": "MIDTROL",
+                "NOTES": "",
+                "LOCATION": "Hilton Garden Inn",
+                "SERVICE": "000",
+                "lat": 43.09239496,
+                "lon": -89.52575416
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.52367021943482, 43.08756336422828]
+            },
+            "properties": {
+                "OBJECTID": 69,
+                "STOP_ID": 30003,
+                "SYSTEM": "MIDTROL",
+                "NOTES": "",
+                "LOCATION": "Marriott Madison West",
+                "SERVICE": "000",
+                "lat": 43.08756337,
+                "lon": -89.52367022
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.52711744449894, 43.09415728066135]
+            },
+            "properties": {
+                "OBJECTID": 70,
+                "STOP_ID": 30005,
+                "SYSTEM": "MIDTROL",
+                "NOTES": "",
+                "LOCATION": "Residence Inn by Marriott",
+                "SERVICE": "000",
+                "lat": 43.09415728,
+                "lon": -89.52711744
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.52295042304944, 43.098102385932535]
+            },
+            "properties": {
+                "OBJECTID": 71,
+                "STOP_ID": 30006,
+                "SYSTEM": "MIDTROL",
+                "NOTES": "",
+                "LOCATION": "Deming at Murphy",
+                "SERVICE": "000",
+                "lat": 43.09810239,
+                "lon": -89.52295042
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.519527485018, 43.10000566402877]
+            },
+            "properties": {
+                "OBJECTID": 72,
+                "STOP_ID": 30007,
+                "SYSTEM": "MIDTROL",
+                "NOTES": "",
+                "LOCATION": "Courtyard by Marriott",
+                "SERVICE": "000",
+                "lat": 43.10000567,
+                "lon": -89.51952749
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.52036895946739, 43.09897265387743]
+            },
+            "properties": {
+                "OBJECTID": 73,
+                "STOP_ID": 30008,
+                "SYSTEM": "MIDTROL",
+                "NOTES": "",
+                "LOCATION": "Country Inn and Suites",
+                "SERVICE": "000",
+                "lat": 43.09897265,
+                "lon": -89.52036896
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.50123405110642, 43.096978132248125]
+            },
+            "properties": {
+                "OBJECTID": 74,
+                "STOP_ID": 30011,
+                "SYSTEM": "MIDTROL",
+                "NOTES": "Metro stop ID 6899",
+                "LOCATION": "University Ave at Parkwood Plaza",
+                "SERVICE": "000",
+                "lat": 43.09697813,
+                "lon": -89.50123405
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.51129248543876, 43.09552814431631]
+            },
+            "properties": {
+                "OBJECTID": 75,
+                "STOP_ID": 30013,
+                "SYSTEM": "MIDTROL",
+                "NOTES": "",
+                "LOCATION": "Hubbard St at Parmenter St",
+                "SERVICE": "000",
+                "lat": 43.09552815,
+                "lon": -89.51129249
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.49517894485011, 43.09702954283516]
+            },
+            "properties": {
+                "OBJECTID": 76,
+                "STOP_ID": 30012,
+                "SYSTEM": "MIDTROL",
+                "NOTES": "",
+                "LOCATION": "Branch St at University Pl",
+                "SERVICE": "000",
+                "lat": 43.09702954,
+                "lon": -89.49517894
+            }
+        }
+    ]
+}
