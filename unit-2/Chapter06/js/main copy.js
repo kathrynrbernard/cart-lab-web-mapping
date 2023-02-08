@@ -134,42 +134,37 @@ function updatePropSymbols(attribute) {
 
 // create new sequence controls
 function createSequenceControls(json, attributes) {
-    var SequenceControl = L.Control.extend({
-        options: {
-            position: 'bottomleft',
-        },
+    //create range input element (slider)
+    let slider = "<input class='range-slider' type='range'></input>";
+    document.querySelector('#panel').insertAdjacentHTML('beforeend', slider);
 
-        onAdd: function () {
-            // create the control container div with a particular class name
-            var container = L.DomUtil.create(
-                'div',
-                'sequence-control-container'
-            );
+    //set slider attributes
+    //MegaCities.json has 7 attributes (7 years of population data)
+    document.querySelector('.range-slider').max = 6;
+    document.querySelector('.range-slider').min = 0;
+    document.querySelector('.range-slider').value = 0;
+    document.querySelector('.range-slider').step = 1;
 
-            //create range input element (slider)
-            container.insertAdjacentHTML(
-                'beforeend',
-                '<input class="range-slider" type="range">'
-            );
-
-            //add skip buttons
-            container.insertAdjacentHTML(
-                'beforeend',
-                '<button class="step" id="reverse" title="Reverse"><img src="img/backward.png"></button>'
-            );
-            container.insertAdjacentHTML(
-                'beforeend',
-                '<button class="step" id="forward" title="Forward"><img src="img/forward.png"></button>'
-            );
-
-            //disable any mouse event listeners for the container
-            L.DomEvent.disableClickPropagation(container);
-
-            return container;
-        },
-    });
-
-    map.addControl(new SequenceControl());
+    //add step buttons
+    document
+        .querySelector('#panel')
+        .insertAdjacentHTML(
+            'beforeend',
+            '<button class="step" id="reverse"></button>'
+        );
+    document
+        .querySelector('#panel')
+        .insertAdjacentHTML(
+            'beforeend',
+            '<button class="step" id="forward"></button>'
+        );
+    //replace button content with images
+    document
+        .querySelector('#reverse')
+        .insertAdjacentHTML('beforeend', "<img src='img/backward.png'>");
+    document
+        .querySelector('#forward')
+        .insertAdjacentHTML('beforeend', "<img src='img/forward.png'>");
 
     //click listener for buttons
     document.querySelectorAll('.step').forEach(function (step) {
