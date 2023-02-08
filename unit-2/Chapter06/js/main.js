@@ -49,6 +49,22 @@ function calcPropRadius(attValue) {
     return radius;
 }
 
+function createPopupContent(properties, attribute) {
+    //add city to popup content string
+    let popupContent = '<p><b>City:</b> ' + properties.City + '</p>';
+
+    //add formatted attribute to panel content string
+    let year = attribute.split('_')[1];
+    popupContent +=
+        '<p><b>Population in ' +
+        year +
+        ':</b> ' +
+        properties[attribute] +
+        ' million</p>';
+
+    return popupContent;
+}
+
 function pointToLayer(feature, latlng, attributes) {
     //Determine which attribute to visualize with proportional symbols
     let attribute = attributes[0];
@@ -73,16 +89,7 @@ function pointToLayer(feature, latlng, attributes) {
     let layer = L.circleMarker(latlng, options);
 
     //build popup content string starting with city
-    let popupContent = '<p><b>City:</b> ' + feature.properties.City + '</p>';
-
-    //add formatted attribute to popup content string
-    let year = attribute.split('_')[1];
-    popupContent +=
-        '<p><b>Population in ' +
-        year +
-        ':</b> ' +
-        feature.properties[attribute] +
-        ' million</p>';
+    let popupContent = createPopupContent(feature.properties, attribute);
 
     //bind the popup to the circle marker, with vertical offset so the pointer doesn't cover the circle
     layer.bindPopup(popupContent, {
@@ -109,23 +116,14 @@ function updatePropSymbols(attribute) {
         if (layer.feature && layer.feature.properties[attribute]) {
             //update the layer style and popup
             //access feature properties
-            var props = layer.feature.properties;
+            let props = layer.feature.properties;
 
             //update each feature's radius based on new attribute values
-            var radius = calcPropRadius(props[attribute]);
+            let radius = calcPropRadius(props[attribute]);
             layer.setRadius(radius);
 
             //add city to popup content string
-            var popupContent = '<p><b>City:</b> ' + props.City + '</p>';
-
-            //add formatted attribute to panel content string
-            var year = attribute.split('_')[1];
-            popupContent +=
-                '<p><b>Population in ' +
-                year +
-                ':</b> ' +
-                props[attribute] +
-                ' million</p>';
+            let popupContent = createPopupContent(props, attribute);
 
             //update popup content
             popup = layer.getPopup();
